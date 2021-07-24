@@ -1,7 +1,7 @@
 body {
   background: #ffffff;
   color: #898989;
-  font-family: 'Poppins', helvetica;
+  font-family: 'Rubik';
   font-size: 15px;
   font-weight: 300;
   line-height: 20px;
@@ -211,8 +211,8 @@ nav ul li a {
 }
 
 #hero {
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(6, 2, 63) 68%, rgb(0, 0, 0) 100%, rgba(0,0,0,1) 100%); 
+  /* background-image: url(../img/home-bg1.jpg); */
+  background-size: contain;
   /* background-image: linear-gradient( 109.8deg,  rgba(62,5,116,1) -5.2%, rgba(41,14,151,1) -5.2%, rgba(216,68,148,1) 103.3% ); */
   height: 100vh;
   width: 100%;
@@ -232,7 +232,8 @@ nav ul li a {
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(0, 0, 0);
+  font-family: 'Mulish';
 }
 
 .hero-content p {
@@ -241,8 +242,9 @@ nav ul li a {
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: 500;
+  font-family: 'Rubik';
 }
 
 .hero-content .list-social li {
@@ -251,7 +253,7 @@ nav ul li a {
 }
 
 .hero-content .list-social li i {
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 15px;
 }
 
@@ -341,14 +343,14 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Mulish';
   font-size: 28px;
   text-align: left;
   margin-top: 10em;
 }
 
 #about .about-descr .separator {
-  max-width: 80%;
+  max-width: 90%;
   margin-bottom: 0;
   text-align: left;
 }
